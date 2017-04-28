@@ -1,6 +1,7 @@
 package css.cis3334.fishlocatorfirebase;
 
 import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -22,7 +23,7 @@ public class FishFirebaseData {
     public static final String FishDataTag = "Fish User Data";
     private String userId;              // Firebase authentication ID for the current logged int user
 
-    public DatabaseReference open(MainActivity mainActivity)  {
+    public DatabaseReference open(AppCompatActivity mainActivity)  {
         // Write a message to the database
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         myFishDbRef = database.getReference(FishDataTag);
@@ -35,14 +36,14 @@ public class FishFirebaseData {
 
     }
     // get the current logged in user's id from Firebase
-    private String getUserId(MainActivity mainActivity) {
+    private String getUserId(AppCompatActivity activity) {
         firebaseAuth = FirebaseAuth.getInstance();
         FirebaseUser user = firebaseAuth.getCurrentUser();
         if (user == null) {
             // User is signed out
             Log.d("CSS3334","onAuthStateChanged - User NOT is signed in");
-            Intent signInIntent = new Intent(mainActivity, LoginActivity.class);
-            mainActivity.startActivity(signInIntent);
+            Intent signInIntent = new Intent(activity, LoginActivity.class);
+            activity.startActivity(signInIntent);
         }
         return user.getUid();
     }
@@ -75,7 +76,7 @@ public class FishFirebaseData {
     public List<Fish> getAllFish(DataSnapshot dataSnapshot) {
         List<Fish> fishList = new ArrayList<Fish>();
         for (DataSnapshot data : dataSnapshot.getChildren()) {
-            Fish fish = data.getValue(Fish.class);
+            Fish fish = data.child(userId).getValue(Fish.class);
             fishList.add(fish);
         }
         return fishList;

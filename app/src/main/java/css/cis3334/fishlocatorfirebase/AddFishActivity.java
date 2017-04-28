@@ -29,7 +29,7 @@ public class AddFishActivity extends AppCompatActivity {
         editTextDate = (EditText) findViewById(R.id.editTextDate);
 
         fishDataSource = new FishFirebaseData();
-        fishDataSource.open();
+        DatabaseReference myFishDbRef = fishDataSource.open(this);
 
         // get the current location of the phone
 //        LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);

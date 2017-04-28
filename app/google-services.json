@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "3901364435-i4l3vbdniimdoa4bhgqp26hn1shm9c5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "css.cis3334.fishlocatorfirebase",
+            "certificate_hash": "ee5a61a3ca0591fdb3b71dd2745389b0f48ee006"
+          }
+        },
+        {
           "client_id": "3901364435-tua4v0v814eqqdl2slbt7d5ue4h4uc54.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

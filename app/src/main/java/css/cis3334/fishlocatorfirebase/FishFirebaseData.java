@@ -75,8 +75,10 @@ public class FishFirebaseData {
 
     public List<Fish> getAllFish(DataSnapshot dataSnapshot) {
         List<Fish> fishList = new ArrayList<Fish>();
-        for (DataSnapshot data : dataSnapshot.getChildren()) {
-            Fish fish = data.child(userId).getValue(Fish.class);
+        // loop only over the fish tied to this user id
+        for (DataSnapshot data : dataSnapshot.child("users").child(userId).getChildren()) {
+            Log.d("CIS3334", "=== getAllFish === "+data.toString());
+            Fish fish = data.getValue(Fish.class);
             fishList.add(fish);
         }
         return fishList;

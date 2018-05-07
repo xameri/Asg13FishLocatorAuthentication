@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FishLocatorFirebaseUser.iml" filepath="$PROJECT_DIR$/FishLocatorFirebaseUser.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FishLocatorFirebaseUser2.iml" filepath="$PROJECT_DIR$/FishLocatorFirebaseUser2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\School\Spring\Mobile App\Unit 13x\FishLocatorFirebaseUser\FishLocatorFirebaseUser2.iml" filepath="C:\School\Spring\Mobile App\Unit 13x\FishLocatorFirebaseUser\FishLocatorFirebaseUser2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

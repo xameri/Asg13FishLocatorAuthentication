@@ -1,43 +1,35 @@
 {
   "project_info": {
-    "project_number": "3901364435",
-    "firebase_url": "https://fishlocatorfirebase.firebaseio.com",
-    "project_id": "fishlocatorfirebase",
-    "storage_bucket": "fishlocatorfirebase.appspot.com"
+    "project_number": "889787968302",
+    "firebase_url": "https://unit13-firebasefish-xameri.firebaseio.com",
+    "project_id": "unit13-firebasefish-xameri",
+    "storage_bucket": "unit13-firebasefish-xameri.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:3901364435:android:a1695d7ecc99ba5e",
+        "mobilesdk_app_id": "1:889787968302:android:a1695d7ecc99ba5e",
         "android_client_info": {
           "package_name": "css.cis3334.fishlocatorfirebase"
         }
       },
       "oauth_client": [
         {
-          "client_id": "3901364435-i4l3vbdniimdoa4bhgqp26hn1shm9c5t.apps.googleusercontent.com",
+          "client_id": "889787968302-sscq3e3pmg22l6r9nrk8ofq76ti8vll1.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "css.cis3334.fishlocatorfirebase",
-            "certificate_hash": "ee5a61a3ca0591fdb3b71dd2745389b0f48ee006"
+            "certificate_hash": "67ef40a18feace8fb4d0611478be83e94d108633"
           }
         },
         {
-          "client_id": "3901364435-tua4v0v814eqqdl2slbt7d5ue4h4uc54.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "css.cis3334.fishlocatorfirebase",
-            "certificate_hash": "29200dd6dc1e1e69796836b85e48f5ed71dcb379"
-          }
-        },
-        {
-          "client_id": "3901364435-d6pdgacvm4vbaaf5unuos3kvfmlc4mmu.apps.googleusercontent.com",
+          "client_id": "889787968302-ftro8399krhrtu1tf907uu5r5696aq2t.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyASHAV-NakYROxXJsnOQRDsTQJhJOR9J_o"
+          "current_key": "AIzaSyBNMQhD7q8gjUOcP67pvoqHTF1awKyQAtc"
         }
       ],
       "services": {
@@ -48,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "3901364435-d6pdgacvm4vbaaf5unuos3kvfmlc4mmu.apps.googleusercontent.com",
+              "client_id": "889787968302-ftro8399krhrtu1tf907uu5r5696aq2t.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

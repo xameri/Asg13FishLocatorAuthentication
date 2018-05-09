@@ -19,7 +19,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.List;
-
+// I have already commited this project almost two weeks ago, but
+// i am trying it again today and i do not know what went wrognt.
 public class MainActivity extends AppCompatActivity {
 
     Button buttonAdd, buttonDetails, buttonDelete;          // two button widgets
